@@ -15,6 +15,7 @@ body {
   margin: 0 auto;
   font-size: 16px;
   line-height: 1.71429;
+  font-family: 'Raleway', sans-serif;/*Añadiendo fuente Raley*/
 }
 
 img {
@@ -27,6 +28,8 @@ img {
   margin-left: auto;
   padding-left: 14px;
   padding-right: 14px;
+  
+ 
 }
 
 .container:before, .container:after {
@@ -59,10 +62,12 @@ img {
 a {
   color: #373B47;
   text-decoration: none;
+  padding: 5px;
 }
 
 a:hover {
   color: #E95853;
+  
 }
 
 .text-uppercase {
@@ -71,3 +76,91 @@ a:hover {
 
 /*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
 
+header{
+  position:fixed;
+  font-weight:bold;
+  background: white;
+  width: 100%;
+  height: 100px;
+ top:0px;
+  outline: 1px solid red;
+  z-index:1000;
+}
+
+nav{
+  position: absolute;
+  top:50%;
+  transform: translateY(-50%);
+  outline: 1px solid blue;
+  left:15%;
+  padding:10px;
+ 
+}
+
+nav a {
+  margin:20px;
+}
+
+img[alt='applove']{ /*Colocando a la derecha el logo */
+  float:right;
+  outline: 1px solid blue;
+  width: 100px;
+  margin-right: 10%;
+}
+
+
+section{
+  width:100%;
+  
+  outline: solid 1px green;
+  
+  
+ 
+}
+#bg-home{
+  background-image:url(../assets/images/bg-home.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width:100%;
+  height:600px;
+  position: relative;
+  top:82px;
+  text-align: center;
+  color: white;
+  
+ }
+
+
+  #bg-home>h2{
+    outline: solid 1px green;
+    position: relative;
+    padding: 50px;
+    font-weight: bold;
+    
+
+  }
+  #bg-home h1{
+    
+  }
+  #bg-home p{
+    
+  }
+
+  #bg-home button{
+    background-color: #2ecc71;
+    padding: 10px;
+    color: #fff;
+  
+    border: 0px;
+    font-weight: 600;
+  }
+
+
+  button a {
+    color: white;
+    }
+
+  button a:hover {
+  color: white;
+  }
+  /*servicios margin al h2 =0* del work/
