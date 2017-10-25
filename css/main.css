@@ -29,6 +29,10 @@ img {
   margin-left: auto;
   padding-left: 14px;
   padding-right: 14px;
+  position: relative;/**/
+  top:90px;
+  outline: 2px solid red;
+
   
 }
 
@@ -230,8 +234,7 @@ section{
    .services>img{
      max-width: 60%;
      margin:20px;
-     
-   }
+  }
    .services>h5,.services>h6{
     margin: 0px;
     padding: 0px;
@@ -277,12 +280,23 @@ section{
    }
 
    #bg-work>img{
-     width: 70%;
-    
-    
-   
-   
-   
+     width: 70%;       
    }
+
+   .projects{
+    width:33%;
+    position: relative;
+    display: inline-block;
+    padding: 0px;
+    outline: solid 1px purple;
+    margin: 0px;
+    text-align:center;
+    color:#424242;
+  }
+
+  .projects>img{
+    max-width: 75%;
+    margin:45px;
+ }
 
   /*servicios margin al h2 =0* del work/
