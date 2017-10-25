@@ -16,6 +16,7 @@ body {
   font-size: 16px;
   line-height: 1.71429;
   font-family: 'Raleway', sans-serif;/*Añadiendo fuente Raley*/
+  
 }
 
 img {
@@ -29,7 +30,6 @@ img {
   padding-left: 14px;
   padding-right: 14px;
   
- 
 }
 
 .container:before, .container:after {
@@ -81,8 +81,8 @@ header{
   font-weight:bold;
   background: white;
   width: 100%;
-  height: 100px;
- top:0px;
+  height:100px;
+  top:0px;
   outline: 1px solid red;
   z-index:1000;
 }
@@ -92,7 +92,7 @@ nav{
   top:50%;
   transform: translateY(-50%);
   outline: 1px solid blue;
-  left:15%;
+  left:10%;
   padding:10px;
  
 }
@@ -104,8 +104,9 @@ nav a {
 img[alt='applove']{ /*Colocando a la derecha el logo */
   float:right;
   outline: 1px solid blue;
-  width: 100px;
-  margin-right: 10%;
+  width: 70px;
+  margin-right: 8%;
+  
 }
 
 
@@ -122,7 +123,7 @@ section{
   background-repeat: no-repeat;
   background-size: 100%;
   width:100%;
-  height:600px;
+  height:100%;
   position: relative;
   top:82px;
   text-align: center;
@@ -134,25 +135,36 @@ section{
   #bg-home>h2{
     outline: solid 1px green;
     position: relative;
-    padding: 50px;
+    padding: 100px 0px 40px 0px;
     font-weight: bold;
+    margin: 0px;
+   }
+  #bg-home>h1{
+    outline: solid 1px purple;
+    position: relative;
+    padding: 0px;
+    font-weight: bold;
+    font-size: 50px;
+    margin: 0px;
     
-
   }
-  #bg-home h1{
-    
-  }
-  #bg-home p{
-    
-  }
-
-  #bg-home button{
-    background-color: #2ecc71;
+  #bg-home>p{
+    outline: solid 1px purple;
+    position: relative;
     padding: 10px;
+    font-size: 15px;
+    margin: 0px;
+    
+  }
+
+  #bg-home>button{
+    background-color: #2ecc71;
+    padding: 15px;
     color: #fff;
-  
     border: 0px;
     font-weight: 600;
+    margin: 70px 0px 110px 0px;
+    outline: solid 1px greenyellow;
   }
 
 
@@ -163,4 +175,114 @@ section{
   button a:hover {
   color: white;
   }
+
+  #bg-services{
+    background-color:#f17c72;
+    background-size: 100%;
+    color: #fff;
+    width:100%;
+    height:100%;
+    position: relative;
+    top:60px;
+    text-align: center;
+    outline:1px solid purple;
+    margin: 0px;
+    padding: 0px;
+   
+    
+   }
+
+   #bg-services>h2{
+    font-size:30px;
+    font-weight: bold;
+    margin: 0px;
+    outline: dotted 1px green;
+    position: relative;
+    padding: 85px 0px 0px 0px;
+   
+   }
+
+   #bg-services>h4{
+    
+    font-weight: bold;
+    margin: 0px;
+    outline: dotted 1px green;
+    position: relative;
+    padding: 40px 0px 0px 0px;
+   
+   }
+   #blockservices{
+    padding: 100px 150px 75px 150px;
+    outline: solid 1px purple;
+    font-weight: bold;
+   }
+
+   .services{
+     width:33%;
+     position: relative;
+     display: inline-block;
+     padding: 0px;
+     outline: solid 1px yellowgreen;
+     margin: 0px;
+
+   }
+
+   .services>img{
+     max-width: 60%;
+     margin:20px;
+     
+   }
+   .services>h5,.services>h6{
+    margin: 0px;
+    padding: 0px;
+    
+  }
+  
+  #bg-work{
+    background-color:#fff;
+    background-size: 100%;
+    color: #000;
+    width:100%;
+    height:100%;
+    position: relative;
+    top:60px;
+    text-align: center;
+    outline:1px solid yellowgreen;
+    margin: 0px;
+    padding: 0px;
+   
+    
+   }
+
+   #bg-work>h2{
+    font-size:30px;
+    font-weight: bold;
+    margin: 0px;
+    outline: dotted 1px green;
+    position: relative;
+    padding: 70px 0px 0px 0px;
+   
+   }
+
+   #bg-work>h4{
+    
+    
+    margin: 0px;
+    outline: dotted 1px green;
+    position: relative;
+    color:#424242;
+    padding: 30px 0px 40px 0px;
+   
+   
+   }
+
+   #bg-work>img{
+     width: 70%;
+    
+    
+   
+   
+   
+   }
+
   /*servicios margin al h2 =0* del work/
